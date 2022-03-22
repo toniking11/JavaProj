@@ -36,6 +36,7 @@ public class Е {
             count = 0;
         }
 
+        System.out.println();
 
         }
 
