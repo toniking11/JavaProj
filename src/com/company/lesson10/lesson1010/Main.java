@@ -26,5 +26,9 @@ public class Main {
 
         System.out.println(man.getWife().getName());
 
+        womann.setAge(12);
+
+        System.out.println(womann.getAge());
+
     }
 }

@@ -10,6 +10,10 @@ public class Womann {
 
     }
 
+    public int getAge() {
+        return age;
+    }
+
     public String getName() {
         return name;
     }
@@ -21,4 +25,9 @@ public class Womann {
     public void setHusband(Man husband) {
         this.husband = husband;
     }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 }

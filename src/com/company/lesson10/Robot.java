@@ -6,7 +6,7 @@ public class Robot {
         private int age;
         private int power;
 
-        public Robot(String name, int age, int power ) {
+        public  Robot(String name, int age, int power ) {
                 this.power = power;
 
         }

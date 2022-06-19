@@ -12,6 +12,7 @@ public class HomeWork10 {
 
         Woman woman = new Woman("Lina");
 
+
         Cat cat = new Cat(woman);
         Dog dog = new Dog(woman);
         Fish fish = new Fish(woman);
