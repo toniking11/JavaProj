@@ -10,7 +10,7 @@ public class Example1 {
 //        System.out.println(today.getTime() / msDay / 365);
 
         Date currentTime = new Date();
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         Date newTime = new Date();
         long delay = newTime.getTime() - currentTime.getTime();
         System.out.println(delay);

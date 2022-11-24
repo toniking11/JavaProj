@@ -15,7 +15,7 @@ public class Exampl2<T> {
     }
 
     public static <T> Exampl2<T> init(T instantiator) {
-        return new Exampl2<>();
+        return new Exampl2<T>();
     }
 
 

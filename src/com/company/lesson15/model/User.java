@@ -24,7 +24,7 @@ public class User extends BaseObject {
     @Override
     public String toString() {
 
-        int i = 4;
+
         return "my name is " + name + " my age is " + age ;
 
 

@@ -1,7 +1,7 @@
 package com.company.lesson15.exampl;
 
 public class Example1<T> {
-    public T instance;
+    private T instance;
 
     public T get() {
         return instance;

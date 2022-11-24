@@ -6,20 +6,17 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-
-
-        List<Integer> list = new ArrayList<>();  /* Integer[] arr = new Integer[5];*/
-
-        list.add(5);
+        List<Integer> list = new ArrayList<>();
+        list.add(2);
+        list.add(4);
         list.add(7);
-        list.add(1, 2);
-        list.set(0, 1);
-        System.out.println(list.get(0));
-        System.out.println(list.size());
+        list.add(1,3);
+
 
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
-
         }
+
+
     }
 }

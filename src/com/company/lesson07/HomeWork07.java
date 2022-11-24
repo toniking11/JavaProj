@@ -13,6 +13,7 @@ public class HomeWork07 {
         String num1 = reader.readLine();
         int s1 = Integer.parseInt(num1);
 
+
         String num2 = reader.readLine();
         int s2 = Integer.parseInt(num1);
 

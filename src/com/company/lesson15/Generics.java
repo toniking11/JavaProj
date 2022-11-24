@@ -18,38 +18,25 @@ public class Generics {
         List<Object> list4 = new ArrayList<>();
 
 
-        System.out.println();
-
-//        Example1<User> exampl1 = new Example1<>();
-//        System.out.println(exampl1.get());
-//        exampl1.set(new User("anton",22));
-//        System.out.println(exampl1.get());
-
-        Exampl2.simpleInit(new User());
+        Example1<User> exampl1 = new Example1<>();
+        System.out.println(exampl1.get());
+        exampl1.set(new User("anton", 28));
+        System.out.println(exampl1.get());
 
         Exampl2<User> exampl2 = Exampl2.init(new User());
-        exampl2.set(new User("alex",33));
-
+        exampl2.set(new User("andrey", 23));
         System.out.println(exampl2.getInstance());
 
         List<BaseObject> list5 = new ArrayList<>();
         List<User> list6 = new ArrayList<>();
         List<ChaildObject> list7 = new ArrayList<>();
 
-
-
-
     }
 
     public static void example1(List<?> list) {
-
     }
 
     public static void example2(List<? extends User> list) {
-
-    }
-
-    public static void example3(List<? super User> list) {
 
     }
 }
